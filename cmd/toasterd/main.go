@@ -6,7 +6,8 @@ import (
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>Hello KernOS world! (^:</h1>")
+	fmt.Fprintf(w, "<h1>Hello from <tt>toasterd</tt>!</h1>")
+	fmt.Fprintf(w, "Powered by KernOS (:")
 }
 
 func main() {
